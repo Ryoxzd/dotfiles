@@ -1,5 +1,4 @@
-<h1 align="center">Miyabi Hyprland</h1>
-
+<!-- <h1>MIyabi Hyprland</h1> -->
 <p align="center">
     <img src="./Preview/title.png" alt="Miyabi Rice" style="width: 85%;">
 </p>
@@ -22,7 +21,7 @@ A curated list of programs and tools used in this setup.
 | **Terminal** 🖥️      | [Kitty](https://github.com/kovidgoyal/kitty)                                           |
 | **Shell** 🐚         | [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) + [Powerlevel10k](https://github.com/romkatv/powerlevel10k) |
 | **Editor** 📝        | [Neovim](https://github.com/neovim/neovim) + [NvChad](https://github.com/NvChad/NvChad) |
-|                     | [VSCode](https://aur.archlinux.org/packages/visual-studio-code-bin)                    |
+| **Editor** 📝        | [VSCode](https://aur.archlinux.org/packages/visual-studio-code-bin)                    |
 | **Visualizer** 📊    | [Cava](https://github.com/karlstav/cava)                                               |
 | **Gaming** 🎮        | [Steam](https://store.steampowered.com/)                                               |
 | **Other Tools** 🗿   | -                                                                                     |
