@@ -19,23 +19,22 @@ List of programs and tools I use.
 | Editor 📝         | [neovim](https://github.com/neovim/neovim) / [nvchad](https://github.com/NvChad/NvChad)     |
 | Editor 📝         | [vscode](https://aur.archlinux.org/packages/visual-studio-code-bin)|
 | Visualiser 📊     | [cava](https://github.com/karlstav/cava)          |
-| Game🎮            | [Steam]       |
+| Game🎮            | [Steam](https://store.steampowered.com/)       |
 | Etc🗿             |               |
-|-----------------------------------|
 
 ## 📷 Preview
 ![Preview](./Preview/4.png)
 
 ## 🎲 More
 <p align="center>
-    <img src"./Previews/1.png" alt"More 1" width="75%" />
+    <img src="./Preview/1.png" alt"More 1" width="75%" />
 </p>
 <p align="center>
-    <img src"./Previews/2.png" alt"More 2" width="75%" />
+    <img src="./Preview/2.png" alt"More 2" width="75%" />
 </p>
 <p align="center>
-    <img src"./Previews/3.png" alt"More 3" width="75%" />
+    <img src="./Preview/3.png" alt"More 3" width="75%" />
 </p>
 
 ## 📝 Inspired From
-- ***Minimal Bocchi** - I used some configurations from there: [MinimalBocchi] (https://github.com/Spelljinxer/dotfiles)
+- **Minimal Bocchi** - I used some configurations from there: [MinimalBocchi] (https://github.com/Spelljinxer/dotfiles)
