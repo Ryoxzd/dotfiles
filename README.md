@@ -19,6 +19,7 @@ A curated list of programs and tools used in this setup.
 |--------------------|-----------------------------------------------------------------------------------------|
 | **Window Manager** 🪟 | [Hyprland](https://github.com/hyprwm/Hyprland)                                        |
 | **Terminal** 🖥️      | [Kitty](https://github.com/kovidgoyal/kitty)                                           |
+| **Sddm** 🎗️        | [Astronaut-Theme](https://github.com/Keyitdev/sddm-astronaut-theme)                       |                        |
 | **Shell** 🐚         | [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) + [Powerlevel10k](https://github.com/romkatv/powerlevel10k) |
 | **Editor** 📝        | [Neovim](https://github.com/neovim/neovim) + [NvChad](https://github.com/NvChad/NvChad) |
 | **Editor** 📝        | [VSCode](https://aur.archlinux.org/packages/visual-studio-code-bin)                    |
