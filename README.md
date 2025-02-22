@@ -57,5 +57,3 @@ A curated list of programs and tools used in this setup.
   Some configurations were adapted from [MinimalBocchi](https://github.com/Spelljinxer/dotfiles).  
 
 ---
-
-Feel free to fork, modify, or contribute to this repository to make it your own! 😊
