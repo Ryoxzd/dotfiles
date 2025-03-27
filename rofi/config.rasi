@@ -1,0 +1,10 @@
+
+@theme "/usr/share/rofi/themes/Miyabi.rasi"
+
+* {
+  border-radius: 5px;
+}
+
+configuration {
+  display-drun: "Apps";
+}

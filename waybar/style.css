@@ -22,13 +22,13 @@ tooltip {
     border-radius: 3px;
     border-width: 1.5px;
     border-style: solid;
-    border-color: #11111b;
+    border-color: #0C0C0A; 
     transition: 0.3s;
 }
 
 #workspaces button {
     padding: 5px;
-    color: #6A6A6A;
+    color: #494949;
     margin-right: 5px;
 }
 
@@ -38,20 +38,20 @@ tooltip {
 
 #workspaces button.focused {
     color: #F9F7FB;
-    background: #1D1E1E;
-    border-radius: 3px;
+    background: #0C0C0A;
+    border-radius: 5px;
 }
 
 #workspaces button.urgent {
     color: #1D1E1E;
     background: #F9F7FB;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 #workspaces button:hover {
-    background: #1D1E1E;
+    background: #0C0C0A;
     color: #cdd6f4;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 #custom-power_profile,
@@ -66,17 +66,16 @@ tooltip {
 #workspaces,
 #tray,
 #custom-playerctl,
-#backlight {
-    background: #1D1E1E;
+#backlight  {
+    background: #0C0C0A;
     opacity: 0.8;
     padding: 0px 10px;
     margin: 0;
     margin-top: 5px;
-    border: 1px solid #11100f;
 }
 
 #temperature {
-    border-radius: 3px 0px 0px 3px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 #temperature.critical {
@@ -84,20 +83,21 @@ tooltip {
 }
 
 #backlight {
-    border-radius: 3px 0px 0px 3px;
+    border-radius: 5px 5px 5px 5px;
     padding-left: 7px;
     margin-right: 7px;
 }
 
 #tray {
-    border-radius: 3px;
+    border-radius: 5px;
     margin-right: 5px;
     padding: 0px 4px;
 }
 
+
 #workspaces {
-    background: #1D1E1E;
-    border-radius: 3px;
+    background: #0C0C0A;
+    border-radius: 5px;
     margin-left: 5px;
     padding-right: 0px;
     padding-left: 5px;
@@ -110,14 +110,14 @@ tooltip {
 }
 
 #window {
-    border-radius: 3px;
+    border-radius: 5px;
     margin-left: 5px;
     margin-right: 5px;
 }
 
 #clock {
     color: #F9F7FB;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-left: 5px;
     border-right: 0px;
     transition: 0.3s;
@@ -126,14 +126,14 @@ tooltip {
 
 #network {
     color: #F9F7FB;
-    border-radius: 3px 0px 0px 3px;
+    border-radius: 5px 0px 0px 5px;
     border-left: 0px;
     border-right: 0px;
 }
 
 #bluetooth {
     color: #89b4fa;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-right: 10px
 } 
 
@@ -141,20 +141,21 @@ tooltip {
     color: #F9F7FB;
     border-left: 0px;
     border-right: 0px;
+    border-radius: 5px 0px 0px 5px;
 }
 
 #pulseaudio.microphone {
     color: #F9F7FB;
     border-left: 0px;
     border-right: 0px;
-    border-radius: 0px 3px 3px 0px;
+    border-radius: 0px 5px 5px 0px;
     margin-right: 5px;
     padding-right: 8px;
 }
 
 #battery {
     color: #F9F7FB;
-    border-radius: 0 3px 3px 0;
+    border-radius: 5px 5px 5px 5px;
     margin-right: 5px;
     border-left: 0px;
 }
