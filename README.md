@@ -1,59 +1,72 @@
-<!-- <h1>MIyabi Hyprland</h1> -->
-<p align="center">
-    <img src="./Preview/title.png" alt="Miyabi Rice" style="width: 85%;">
-</p>
+<!-- Miyabi Hyprland -->
+## Riru Theme
 
 <p align="center">
-    First time rice, made with Arch Linux Hyprland.<br>
-    Entirely based on instinct.<br><br>
-    <b>Disclaimer:</b> Configured and tested on an Axioo Hype 5 AMD X3 laptop.
+  A minimal Hyprland rice — built with intention, not instructions.<br><br>
+  <strong>Tested on:</strong> Axioo Hype 5 Amd X3
 </p>
 
 ---
 
-## 📦 Programs
+## Overview
 
-A curated list of programs and tools used in this setup.
-
-| Component          | Program                                                                                 |
-|--------------------|-----------------------------------------------------------------------------------------|
-| **Window Manager** 🪟 | [Hyprland](https://github.com/hyprwm/Hyprland)                                        |
-| **Terminal** 🖥️      | [Kitty](https://github.com/kovidgoyal/kitty)                                           |
-| **Sddm** 🎗️        | [Astronaut-Theme](https://github.com/Keyitdev/sddm-astronaut-theme)                       |                        |
-| **Shell** 🐚         | [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) + [Powerlevel10k](https://github.com/romkatv/powerlevel10k) |
-| **Editor** 📝        | [Neovim](https://github.com/neovim/neovim) + [NvChad](https://github.com/NvChad/NvChad) |
-| **Editor** 📝        | [VSCode](https://aur.archlinux.org/packages/visual-studio-code-bin)                    |
-| **Visualizer** 📊    | [Cava](https://github.com/karlstav/cava)                                               |
-| **Gaming** 🎮        | [Steam](https://store.steampowered.com/)                                               |
-| **Other Tools** 🗿   | -                                                                                     |
+**Riru Hyprland** is a personal setup of Hyprland on Arch Linux.  
+Designed to be minimal, clean, and functional — made entirely by hand without automation tools.
 
 ---
 
-## 📷 Preview
+## Components
 
-<p align="center">
-    <img src="./Preview/4.png" alt="Preview" style="width: 75%;">
-</p>
+| Category             | Program                                                                               |
+|----------------------|----------------------------------------------------------------------------------------|
+| **Window Manager**   | [Hyprland](https://github.com/hyprwm/Hyprland)                                        |
+| **Terminal**         | [Kitty](https://github.com/kovidgoyal/kitty)                                          |
+| **Login Manager**    | [SDDM](https://github.com/sddm/sddm) + [Astronaut Theme](https://github.com/Keyitdev/sddm-astronaut-theme) |
+| **Shell**            | [Zsh](https://www.zsh.org/) + [Powerlevel10k](https://github.com/romkatv/powerlevel10k) |
+| **Editor (CLI)**     | [Neovim](https://github.com/neovim/neovim) + [NvChad](https://github.com/NvChad/NvChad) |
+| **Editor (GUI)**     | [VSCode](https://aur.archlinux.org/packages/visual-studio-code-bin)                  |
+| **Visualizer**       | [Cava](https://github.com/karlstav/cava)                                              |
+| **Gaming**           | [Steam](https://store.steampowered.com/)                                              |
+| **Other Tools**      | Hmmm                                                                         |
 
 ---
 
-## 🎲 More Screenshots
+## Preview
 
 <p align="center">
-    <img src="./Preview/1.png" alt="Screenshot 1" style="width: 75%;">
-</p>
-<p align="center">
-    <img src="./Preview/2.png" alt="Screenshot 2" style="width: 75%;">
-</p>
-<p align="center">
-    <img src="./Preview/3.png" alt="Screenshot 3" style="width: 75%;">
+    <img src="./Preview/1.png" alt="Screenshot 1" class="screenshot"><br>
 </p>
 
 ---
 
-## 📝 Inspired By
+## Gallery
 
-- **Minimal Bocchi**  
-  Some configurations were adapted from [MinimalBocchi](https://github.com/Spelljinxer/dotfiles).  
+<p align="center">
+  <img src="./Preview/2.png" alt="Screenshot 2" class="screenshot"><br>
+  <img src="./Preview/3.png" alt="Screenshot 3" class="screenshot">
+</p>
+
+---
+
+## Inspiration
+
+- [MinimalBocchi](https://github.com/Spelljinxer/dotfiles) — some layout ideas were adapted.
+
+---
+
+## Notes
+
+- No rice generators or scripts were used.
+- Aimed for a smooth experience on mid-spec laptops.
+- Future updates will include waybar modules, keybind refinements, and better theme consistency.
+
+---
+
+## Closing
+
+> “Just enough. Nothing more.”
+
+This setup is a work in progress.  
+Improvements and refinements will follow — feel free to explore, fork, or use as reference.
 
 ---
