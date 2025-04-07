@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=oomox-Ruri
+Comment=Generated with Themix Base16 plugin
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=oomox-Ruri
+GtkTheme=oomox-Ruri
+IconTheme=oomox-Ruri
+MetacityTheme=oomox-Ruri

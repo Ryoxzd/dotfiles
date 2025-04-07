@@ -1,5 +1,4 @@
-
-@theme "/usr/share/rofi/themes/Miyabi.rasi"
+@theme "/usr/share/rofi/themes/Ruri.rasi"
 
 * {
   border-radius: 5px;
@@ -7,4 +6,6 @@
 
 configuration {
   display-drun: "Apps";
+  show-icons: false;
+  icon-theme: "Papirus";
 }
