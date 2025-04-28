@@ -18,11 +18,11 @@ window#waybar.empty #window {
 }
 
 tooltip {
-    background: #0D1214;
-    border-radius: 3px;
+    background: #0A121A;
+    border-radius: 5px;
     border-width: 1.5px;
     border-style: solid;
-    border-color: #0D1214; 
+    border-color: #0A121A; 
     transition: 0.3s;
 }
 
@@ -38,18 +38,18 @@ tooltip {
 
 #workspaces button.focused {
     color: #F9F7FB;
-    background: #0D1214;
+    background: #0A121A;
     border-radius: 5px;
 }
 
 #workspaces button.urgent {
-    color: #1D1E1E;
+    color: #0A121A;
     background: #F9F7FB;
     border-radius: 5px;
 }
 
 #workspaces button:hover {
-    background: #0D1214;
+    background: #0A121A;
     color: #cdd6f4;
     border-radius: 5px;
 }
@@ -67,7 +67,7 @@ tooltip {
 #tray,
 #custom-playerctl,
 #backlight  {
-    background: #0D1214;
+    background: #0A121A;
     opacity: 0.8;
     padding: 0px 10px;
     margin: 0;
@@ -96,7 +96,7 @@ tooltip {
 
 
 #workspaces {
-    background: #0D1214;
+    background: #0A121A;
     border-radius: 5px;
     margin-left: 5px;
     padding-right: 0px;

@@ -8,11 +8,11 @@ window {
 }
 
 button {
-    border-radius: 0;
+    border-radius: 5;
     border-color: black;
 	text-decoration-color: #FFFFFF;
     color: #FFFFFF;
-	background-color: #0D1214;
+	background-color: #0A121A;
 	border-style: solid;
 	border-width: 1px;
 	background-repeat: no-repeat;
@@ -21,7 +21,7 @@ button {
 }
 
 button:focus, button:active, button:hover {
-	background-color: #3D8997;
+	background-color: #6284B6;
 	outline-style: none;
 }
 

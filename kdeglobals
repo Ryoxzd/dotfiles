@@ -1,0 +1,14 @@
+[Colors:View]
+BackgroundNormal=#00000000
+
+[General]
+TerminalApplication=kitty
+
+[Icons]
+Theme=Papirus
+
+[KDE]
+windgetStyke=kvantum
+
+[UiSettings]
+ColorScheme=Layan-Dark
