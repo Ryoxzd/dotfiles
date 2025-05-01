@@ -1,4 +1,5 @@
-@theme "/usr/share/rofi/themes/Ruri.rasi"
+
+@theme "/usr/share/rofi/themes/Ryo.rasi"
 
 * {
   border-radius: 5px;

@@ -1,6 +1,6 @@
 * {
     border: none;
-    border-radius: 0px;
+    border-radius: 5px;
     font-family: "JetBrainsMono Nerd Font";
     font-weight: bold;
     font-size: 11px;
@@ -18,11 +18,11 @@ window#waybar.empty #window {
 }
 
 tooltip {
-    background: #0A121A;
+    background: #0E1214;
     border-radius: 5px;
     border-width: 1.5px;
     border-style: solid;
-    border-color: #0A121A; 
+    border-color: #0E1214; 
     transition: 0.3s;
 }
 
@@ -38,18 +38,18 @@ tooltip {
 
 #workspaces button.focused {
     color: #F9F7FB;
-    background: #0A121A;
+    background: #0E1214;
     border-radius: 5px;
 }
 
 #workspaces button.urgent {
-    color: #0A121A;
+    color: #0E1214;
     background: #F9F7FB;
     border-radius: 5px;
 }
 
 #workspaces button:hover {
-    background: #0A121A;
+    background: #0E1214;
     color: #cdd6f4;
     border-radius: 5px;
 }
@@ -67,7 +67,7 @@ tooltip {
 #tray,
 #custom-playerctl,
 #backlight  {
-    background: #0A121A;
+    background: #0E1214;
     opacity: 0.8;
     padding: 0px 10px;
     margin: 0;
@@ -96,7 +96,7 @@ tooltip {
 
 
 #workspaces {
-    background: #0A121A;
+    background: #0E1214;
     border-radius: 5px;
     margin-left: 5px;
     padding-right: 0px;
