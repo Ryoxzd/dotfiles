@@ -1,5 +1,5 @@
 <!-- Miyabi Hyprland -->
-## Riru Theme
+## Miyabi Theme
 
 <p align="center">
   A minimal Hyprland rice — built with intention, not instructions.<br><br>
@@ -10,8 +10,8 @@
 
 ## Overview
 
-**Riru Hyprland** is a personal setup of Hyprland on Arch Linux.  
-Designed to be minimal, clean, and functional — made entirely by hand without automation tools.
+**Miyabi Hyprland** is a personal setup of Hyprland on Arch Linux.  
+Designed to be minimal, clean, and functional — made entirely by hand.
 
 ---
 
@@ -56,7 +56,6 @@ Designed to be minimal, clean, and functional — made entirely by hand without 
 
 ## Notes
 
-- No rice generators or scripts were used.
 - Aimed for a smooth experience on mid-spec laptops.
 - Future updates will include waybar modules, keybind refinements, and better theme consistency.
 
