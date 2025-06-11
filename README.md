@@ -1,71 +1,51 @@
-<!-- Miyabi Hyprland -->
-## Miyabi Theme
+# Miyabi Theme
 
-<p align="center">
-  A minimal Hyprland rice — built with intention, not instructions.<br><br>
-  <strong>Tested on:</strong> Axioo Hype 5 Amd X3
-</p>
+![Stars](https://img.shields.io/github/stars/ryoxzd/dotfiles?color=dd864a&labelColor=1b1b25&style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/ryoxzd/dotfiles?color=bf616a&labelColor=1b1b25&style=for-the-badge)
+[![Ko-fi](https://img.shields.io/badge/support_me_on_ko--fi-F16061?style=for-the-badge&logo=kofi&logoColor=f5f5f5)](https://ko-fi.com/ryoxzd)
 
----
-
-## Overview
-
-**Miyabi Hyprland** is a personal setup of Hyprland on Arch Linux.  
-Designed to be minimal, clean, and functional — made entirely by hand.
+<strong>Miyabi</strong> is a handcrafted, minimal Hyprland rice for Arch Linux.<br>
+Designed with balance — fast, focused, and beautiful.<br><br>
+<em>Tested on:</em> Axioo Hype 5 Amd X3
 
 ---
 
-## Components
+## 📷 Screenshots
 
-| Category             | Program                                                                               |
-|----------------------|----------------------------------------------------------------------------------------|
-| **Window Manager**   | [Hyprland](https://github.com/hyprwm/Hyprland)                                        |
-| **Terminal**         | [Kitty](https://github.com/kovidgoyal/kitty)                                          |
-| **Login Manager**    | [SDDM](https://github.com/sddm/sddm) + [Astronaut Theme](https://github.com/Keyitdev/sddm-astronaut-theme) |
-| **Shell**            | [Zsh](https://www.zsh.org/) + [Powerlevel10k](https://github.com/romkatv/powerlevel10k) |
-| **Editor (CLI)**     | [Neovim](https://github.com/neovim/neovim) + [NvChad](https://github.com/NvChad/NvChad) |
-| **Editor (GUI)**     | [VSCode](https://aur.archlinux.org/packages/visual-studio-code-bin)                  |
-| **Visualizer**       | [Cava](https://github.com/karlstav/cava)                                              |
-| **Gaming**           | [Steam](https://store.steampowered.com/)                                              |
-| **Other Tools**      | Hmmm                                                                         |
+<table align="center">
+  <tr>
+    <td align="center"><img src="./Preview/1.png" alt="Screenshot 1" width="300px"></td>
+    <td align="center"><img src="./Preview/2.png" alt="Screenshot 2" width="300px"></td>
+    <td align="center"><img src="./Preview/3.png" alt="Screenshot 3" width="300px"></td>
+  </tr>
+</table>
 
 ---
 
-## Preview
+## Installation 
+You’ll need:
+- Arch Linux (or Arch-based distro)
+- Active internet connection
+- `git` installed
 
-<p align="center">
-    <img src="./Preview/1.png" alt="Screenshot 1" class="screenshot"><br>
-</p>
+1. Clone This Repository
+```sh
+git clone https://github.com/ryoxzd/dotfiles.git
+```
 
----
+2. Run The Installation
+```sh
+./install.sh
+```
 
-## Gallery
+The script will install dependencies, set up configs, and prepare Hyprland for you. Follow any prompts shown in the terminal.
 
-<p align="center">
-  <img src="./Preview/2.png" alt="Screenshot 2" class="screenshot"><br>
-  <img src="./Preview/3.png" alt="Screenshot 3" class="screenshot">
-</p>
-
----
-
-## Inspiration
-
-- [MinimalBocchi](https://github.com/Spelljinxer/dotfiles) — some layout ideas were adapted.
-
----
-
-## Notes
-
-- Aimed for a smooth experience on mid-spec laptops.
-- Future updates will include waybar modules, keybind refinements, and better theme consistency.
+After installation, reboot or relog into Hyprland — and enjoy Miyabi.
 
 ---
 
-## Closing
-
+### Philosophy
 > “Just enough. Nothing more.”
 
-This setup is a work in progress.  
-Improvements and refinements will follow — feel free to explore, fork, or use as reference.
+This is not just a rice — it's a personal environment. You're welcome to fork, remix, or draw inspiration. Have fun customizing it your way.
 
----
