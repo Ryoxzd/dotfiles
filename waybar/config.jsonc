@@ -6,10 +6,10 @@
     "passthrough": false,
     "gtk-layer-shell": true,
     "height": 30,
-    "modules-left": ["clock", "hyprland/workspaces"],
+    "modules-left": ["clock", "hyprland/workspaces", "custom/playerctl"],
     //"modules-left": ["clock","hyprland/window"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["custom/power_profile","battery","backlight","pulseaudio","pulseaudio#microphone","tray"],
+    "modules-right": ["custom/power_profile","battery","cpu","memory","custom/gpu","backlight","pulseaudio","pulseaudio#microphone","tray"],
     
     "hyprland/window": {
         "format": "{}" 
@@ -138,10 +138,38 @@
 	    "tooltip-format-enumerate-connected": "{device_alias}"
     },
 
+    "cpu": {
+      "format": "  {usage}%"
+    },
+
+    "memory": {
+      "format": "  {used:0.1f}G/{total:0.1f}G",
+      "interval": 5
+    },
+
+    "custom/gpu": {
+      "exec": "~/.config/waybar/scripts/gpu_usage.sh",
+      "interval": 5,
+      "format": "Amd {}",
+      "return-type": "text"
+    },
+
     "custom/playerctl": {
-      "format": "{artist} - {title}",
-      "exec": "playerctl metadata --format '{{artist}} - {{title}}'",
+      "format": "{}",
+      "exec": "playerctl metadata title",
+      "on-click": "playerctl play-pause",
+      "on-scroll-up": "playerctl next",
+      "on-scroll-down": "playerctl previous",
       "interval": 1,
       "tooltip": false
+    },
+
+    "custom/playerctli": {
+      "format": "{}",
+      "interval": 2,
+      "exec": "~/.config/waybar/scripts/playerctl_status.sh",
+      "on-click": "playerctl play-pause",
+      "on-scroll-up": "playerctl next",
+      "on-scroll-down": "playerctl previous"
     }
 }

@@ -1,2 +1,0 @@
-SUPER + Q -> Close Windows
-SUPER + E -> File Manager

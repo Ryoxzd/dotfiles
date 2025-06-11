@@ -8,20 +8,20 @@ window {
 }
 
 button {
-    border-radius: 5;
-    border-color: black;
-	text-decoration-color: #FFFFFF;
-    color: #FFFFFF;
-	background-color: #0E1214;
-	border-style: solid;
-	border-width: 1px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 25%;
+  border-radius: 5;
+  border-color: black;
+  text-decoration-color: #FFFFFF;
+  color: #FFFFFF;
+  background-color: #131217;
+  border-style: solid;
+  border-width: 1px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
 }
 
 button:focus, button:active, button:hover {
-	background-color: #6284B6;
+	background-color: #B46AF8;
 	outline-style: none;
 }
 

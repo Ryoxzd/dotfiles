@@ -1,12 +1,10 @@
 
-@theme "/usr/share/rofi/themes/Ryo.rasi"
+//@theme "/home/ryo/.local/share/rofi/themes/spotlight-dark.rasi"
 
-* {
-  border-radius: 5px;
-}
+//@theme "/home/ryo/.local/share/rofi/themes/windows11-list-dark.rasi"
 
-configuration {
-  display-drun: "Apps";
-  show-icons: false;
-  icon-theme: "Papirus";
-}
+//@theme "/home/ryo/.local/share/rofi/themes/simple-tokyonight.rasi"
+
+//@theme "/home/ryo/.local/share/rofi/themes/rounded-white.rasi"
+
+@theme "/usr/share/rofi/themes/ryo.rasi"

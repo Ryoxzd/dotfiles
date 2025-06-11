@@ -2,7 +2,7 @@
 # Brightness Control Script using brightnessctl & Papirus Icon Theme
 
 # Icon directory (Papirus theme)
-ICON_DIR="/usr/share/icons/Papirus-Dark/24x24/panel"
+ICON_DIR="/usr/share/icons/Papirus-Dark/24x24/actions"
 
 # Check if brightnessctl is installed
 if ! command -v brightnessctl &> /dev/null; then
@@ -12,37 +12,36 @@ fi
 
 # Get Brightness
 get_brightness() {
-    local brightness
+    local brightness max_brightness percent
     brightness=$(brightnessctl get)
-    local max_brightness
     max_brightness=$(brightnessctl max)
-    local percent=$((brightness * 100 / max_brightness))
+    percent=$(awk "BEGIN { printf \"%d\", ($brightness/$max_brightness)*100 }")
     echo "$percent%"
 }
 
 # Get Brightness Icon
 get_brightness_icon() {
-    local brightness
+    local brightness max_brightness percent
     brightness=$(brightnessctl get)
-    local max_brightness
     max_brightness=$(brightnessctl max)
-    local percent=$((brightness * 100 / max_brightness))
-    
-    if [[ "$percent" -le 20 ]]; then
-        echo "$ICON_DIR/display-brightness-low.svg"
-    elif [[ "$percent" -le 60 ]]; then
-        echo "$ICON_DIR/display-brightness-medium.svg"
+    percent=$(awk "BEGIN { printf \"%d\", ($brightness/$max_brightness)*100 }")
+
+    if (( percent <= 20 )); then
+        echo "$ICON_DIR/xfpm-brightness-lcd.svg"
+    elif (( percent <= 60 )); then
+        echo "$ICON_DIR/xfpm-brightness-lcd.svg"
     else
-        echo "$ICON_DIR/display-brightness-high.svg"
+        echo "$ICON_DIR/xfpm-brightness-lcd.svg"
     fi
 }
 
 # Notify User
 notify_brightness() {
-    local brightness icon
+    local brightness icon value
     brightness=$(get_brightness)
+    value="${brightness%\%}"  # Remove % sign
     icon=$(get_brightness_icon)
-    notify-send -h int:value:"${brightness%\%}" -h string:x-canonical-private-synchronous:brightness_notif -u low -i "$icon" "Brightness: $brightness"
+    notify-send -h int:value:"$value" -h string:x-canonical-private-synchronous:brightness_notif -u low -i "$icon" "Brightness: $brightness"
 }
 
 # Increase Brightness
