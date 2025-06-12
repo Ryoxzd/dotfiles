@@ -1,7 +1,5 @@
 # Miyabi Theme
 
-[![Ko-fi](https://img.shields.io/badge/support_me_on_ko--fi-F16061?style=for-the-badge&logo=kofi&logoColor=f5f5f5)](https://ko-fi.com/ryoxzd)
-
 <strong>Miyabi</strong> is a handcrafted, minimal Hyprland rice for Arch Linux.<br>
 Designed with balance — fast, focused, and beautiful.<br><br>
 <em>Tested on:</em> Axioo Hype 5 Amd X3
