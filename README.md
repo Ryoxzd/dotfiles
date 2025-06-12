@@ -1,7 +1,5 @@
 # Miyabi Theme
 
-![Stars](https://img.shields.io/github/stars/ryoxzd/dotfiles?color=dd864a&labelColor=1b1b25&style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/ryoxzd/dotfiles?color=bf616a&labelColor=1b1b25&style=for-the-badge)
 [![Ko-fi](https://img.shields.io/badge/support_me_on_ko--fi-F16061?style=for-the-badge&logo=kofi&logoColor=f5f5f5)](https://ko-fi.com/ryoxzd)
 
 <strong>Miyabi</strong> is a handcrafted, minimal Hyprland rice for Arch Linux.<br>
