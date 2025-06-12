@@ -118,8 +118,8 @@ $AUR_HELPER -S --noconfirm --needed \
 
 #Fonts
 echo 
-FONT_NAME="FiraCodeNerdFont"
-FONT_URL="https://github.com/ryanoasis/nerd-fonts/releases/latest/download/${FONT_NAME}.zip"
+FONT_NAME="FiraCode.zip"
+FONT_URL="https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip"
 FONT_TEMP_DIR="$HOME/.cache/fonts-temp"
 
 if fc-list | grep -qi "FiraCode Nerd Font"; then
